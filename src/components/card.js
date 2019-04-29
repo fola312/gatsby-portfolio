@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBRotatingCard, MDBIcon } from "mdbreact";
 import Ball from '../images/ball.jpg'
 
-class CardExample extends Component {
+class CardExample extends Component { 
 state = {
   flipped: false
 }
