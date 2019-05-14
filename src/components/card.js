@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MDBCol, MDBRow, MDBCard, MDBCardUp, MDBCardBody, MDBAvatar, MDBRotatingCard, MDBIcon } from "mdbreact";
-import Ball from '../images/ball.jpg'
+import Ball1 from '../images/ball1.png';
+import Ball2 from '../images/ball2.png'
 
 class CardExample extends Component { 
 state = {
@@ -23,7 +24,7 @@ render() {
               <img className="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo7.jpg" alt="" />
             </MDBCardUp>
             <MDBAvatar className="mx-auto white" circle>
-              <img src={Ball} alt="" className="rounded-circle" />
+              <img src={Ball1} alt="" className="rounded-circle" />
             </MDBAvatar>
             <MDBCardBody>
               <h4 className="font-weight-bold mb-3">Fola Orokunle</h4>
@@ -35,7 +36,7 @@ render() {
           </MDBCard>
           <MDBCard className="face back mt-5">
             <MDBAvatar className="mx-auto white" circle>
-                <img src={Ball} alt="" className="rounded-circle" />
+                <img src={Ball2} alt="" className="rounded-circle" />
             </MDBAvatar>
             <MDBCardBody>
               <h4 className="font-weight-bold">About me</h4>
